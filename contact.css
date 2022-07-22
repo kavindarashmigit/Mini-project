@@ -1,0 +1,240 @@
+img.logoab{
+    width: 175px;
+    padding-left: 45%;
+}
+nav{
+    width: 100%;
+    text-align: center;
+}
+nav ul{
+    background-color: navy;
+    width: 100%;
+}
+nav ul li {
+    display: inline-block;
+    margin: 20px;
+    line-height: 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16pt;
+}
+nav ul li a:hover{
+    color: #fff;
+    text-decoration: none;
+    transform:rotateX(45deg);
+}
+nav.sticky{
+    position: fixed;
+    top: 0;
+    display: fixed;
+    z-index: 100;
+  }
+.head1{
+    text-transform: uppercase;
+    font-size: 46pt;
+    text-align: center;
+    color:rgb(17, 17, 58) ;
+}
+.container{
+    margin: auto;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding:16px ;
+    width: 50%;
+    background-color: #fff;
+    border: 2px solid navy;
+    box-shadow: 20px 20px 30px 0 #333;
+    
+}
+.container h1{
+    text-align: center;
+    font-size:35px;
+    color: navy;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+label{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: navy;
+}
+input[type='text'],
+input[type='number'],
+input[type='email'],
+ textarea{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 5px 0px 22px 0px;
+    display: inline-block;
+    border: none; 
+    background: whitesmoke;
+
+}
+input[type='text']:focus,
+input[type='number']:focus,
+input[type='email']:focus,
+textarea:focus{
+    background-color: #ddd;
+     outline: none; 
+}
+.btn{
+    background-color: navy;
+    color: #fff;
+    width: 100%;
+    padding: 10px 10px;
+    margin: auto;
+    opacity: 0.8;
+    outline:none;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 1;
+
+}
+
+
+
+footer{
+    margin-top: 75px;
+  bottom: 0px;
+  width: 100%;
+  background: rgb(20, 20, 144);
+  font-family: 'Poppins', sans-serif;
+}
+.content li {
+  list-style: none;
+  line-height: 30px;
+}
+.content a{
+text-decoration: none;
+color: #f1f1f1;
+}
+.content a:hover{
+  font-size: 20px;
+
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  color: silver;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #afb5bd;
+}
+.box .content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #c7c2e5;
+  top: -10px;
+}
+.left .content p{
+  text-align: justify;
+}
+.left .content .social{
+  margin: 20px 0 0 0;
+}
+.left .content .social a{
+  padding: 0 2px;
+}
+.left .content .social a span{
+  height: 40px;
+  width: 40px;
+  background: #a19999;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.left .content .social a span:hover{
+  background: #dbd5d5;
+}
+.center .content .fas{
+  font-size: 1.4375rem;
+  background: #dbe0e7;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center .content .fas:hover{
+  background: #e3e4ef;
+}
+.center .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.center .content .phone{
+  margin: 15px 0;
+}
+.place .text{
+  color:silver
+}
+.phone .text{
+  color:silver
+}
+.email .text{
+  color:silver
+}
+
+
+.right form .btn{
+  margin-top: 10px;
+}
+.right form .btn button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #2c50b4;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+}
+.right form .btn button:hover{
+  background: rgb(230, 223, 223);
+}
+.bottom center{
+  padding: 5px;
+  font-size: 12px;
+  background: #151515;
+}
+.bottom center span{
+  color: #ffffff;
+}
+.bottom center a{
+  color: #92aee3;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}

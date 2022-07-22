@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <img class="logoab" src="image/logo riwisada collage@4x.png" >
+    <nav id="navbar">
+        <div class="main-nav">
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="academic.html">Academic</a></li>
+                <li><a href="news.html">News & Event</a></li>
+                <li><a href="library.html">Library</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="sport.html">sport & clubs</a></li>
+                <li><a href="onlineclass.html">online classes</a></li>
+               
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="head1">contact us</h1>
+    
+
+
+    <div class="container">
+        <form action="">
+          <h1>your message</h1>
+          <p></p>
+          <hr>
+          <label for="fn">Name:</label>
+          <input type="text" name="fn" id="fn" placeholder="First name">
+          
+          <label for="gr">Grade:</label>
+          <input type="number" name="gr" id="gr" placeholder="Your Grade">
+          
+          <label for="mail">Email:</label>
+          <input type="email" name="em" id="em" placeholder="Your Email">
+          
+         <label for="mg">Message:</label>
+         <textarea placeholder="Type your message..." rows="" cols="5"></textarea>
+    
+          <button class="btn" value="submit">SENT</button>
+        </form>
+      </div>
+
+     
+
+
+
+      <footer>
+        <div class="main-content">
+          <div class="left box">
+            <h2>Links</h2>
+            <div class="content">
+              <li><a href="about.html">About</a></li>
+              <li><a href="academic.html">Academic</a></li>
+              <li><a href="onlineclass.html">Online clases</a></li>
+              <li><a href="sport.html">clubs</a></li>
+              <div class="social">
+                <a href="#"><span class="fab fa-facebook-f"></span></a>
+                <a href="#"><span class="fab fa-twitter"></span></a>
+                <a href="#"><span class="fab fa-whatsapp"></span></a>
+                <a href="#"><span class="fab fa-telegram"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="center box">
+            <h2>Address</h2>
+            <div class="content">
+              <div class="place">
+                <span class="fas fa-map-marker-alt"></span>
+                <span class="text">12/5 Ussapitiya,Mawanella</span>
+              </div>
+              <div class="phone">
+                <span class="fas fa-phone-alt"></span>
+                <span class="text">+354568677</span>
+              </div>
+              <div class="email">
+                <span class="fas fa-envelope"></span>
+                <span class="text">rivisanda@mail.com</span>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="bottom">
+          <center>
+            <span class="credit">Created By <a href="#"></a>Riviyans It club</a> | </span>
+            <span class="far fa-copyright"></span><span> 2022 All rights reserved.</span>
+          </center>
+        </div>
+      </footer>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var navbar = document.getElementById("navbar"); 
+        var menu = document.getElementById("menu"); 
+
+    window.onscroll = function(){
+        if (window.pageYOffset >= menu.offsetTop){
+            navbar.classList.add("sticky");
+        }
+        else{
+            navbar.classList.remove("sticky");
+        }
+    }
+    </script>
+</body>
+</html>
